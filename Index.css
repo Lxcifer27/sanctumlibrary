@@ -1,0 +1,81 @@
+html,body{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+p {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0px;
+    padding-top: 10px;
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    overflow-x:hidden;
+}
+span {
+    font-size: 20px;
+    margin: 0px;
+    padding: 20px;
+    color: black;
+    overflow-x:hidden;
+}
+span#CSE:hover {
+    background-color: #9bb0be;
+    margin: 0;
+    padding: 20px;
+    overflow-x:hidden;
+}
+span#ITESM:hover {
+    background-color: #9bb0be;
+    margin: 0;
+    padding: 20px;
+    overflow-x:hidden;
+}
+span#ONLINE:hover {
+    background-color: #9bb0be;
+    margin: 0;
+    padding: 20px;
+    overflow-x:hidden;
+}
+div {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+span#login {
+    font-size: 20px;
+    padding: 6px 18px; 
+    overflow: hidden; 
+    background-color: #9bb0be; 
+    border-radius: 15px; 
+    margin-right: 20px;
+    float: right;
+}
+span#login:hover {
+    background-color: #638196;
+}
+span#help {
+    font-size: 20px;
+    padding: 7px 18px; 
+    overflow: hidden; 
+    background-color: #ffffff; 
+    border-radius: 15px; 
+    margin-right: 10px;
+    float: right;
+    text-align: top;
+}
+span#help:hover {
+    background-color: #638196;
+}
+span#search {
+    padding-top : 10px; 
+    margin-right: 0px;
+    margin: 0px;
+    float: right;
+    text-align: top;
+}
