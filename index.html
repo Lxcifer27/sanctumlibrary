@@ -1,209 +1,381 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="Index.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+	<link rel="stylesheet" href="=Index.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+		integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
 	<link rel="icon" href="logo.png">
 </head>
+
 <body>
-    <div class="navbar">
-        <a href="CSE home.html">
-            <span title="COMPUTER SCIENCE ENGINEERING" id="CSE">
-	CSE <i class="fas fa-caret-down"></i>
-            </span>
-        </a> <!--Add dropdown menu for all semester-->
-        <a href="ITESM home.html">   
-            <span title="INFORMATION TECHNOLOGY ENABLED SERVICE AND MANAGEMENT" id="ITESM">ITESM <i class="fas fa-caret-down"></i></span> 
-        </a><!--Add dropdown menu for all semester-->
-        <a href="ONLINE RESOURCES.html">
-            <span title="LEARN DIGITALLY On-the-Go" id="ONLINE">ONLINE RESOURCES <i class="fas fa-caret-down"></i></span>
-        </a>
-        <a href="Login.html">
-            <span title="LOGIN/SIGNUP" id="login">Log in</span>
-        </a>
-        <a>
-            <span title="Get Help!" id="help">Help !</span>
-        </a>
-        <button type="submit" id="search"><i class="fa fa-search"></i></button>
-        <input id="searchbar" type="text" name="search" placeholder="Search...">
-        <!--Add dropdown menu for all programming languages and database-->
-    </div>
-    <div style="background-color: #484d57;">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1350 100">
-            <path fill="#273036" fill-opacity="1" d="M0,224L48,224C96,224,192,224,288,213.3C384,203,480,181,576,160C672,139,768,117,864,133.3C960,149,1056,203,1152,202.7C1248,203,1344,149,1392,122.7L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
-            </path>
-        </svg>
-    <div style="text-align: center;" class="logo"> 
-        <img src="logo.png" style="width:400px; height:400px; vertical-align: top;">
-    </div> 
-            <h1 style="color: #ffffff; text-align: center;" class="webname1">SANCTUM LIBRARY</h1>
-            <div class="quote1">
-                <q>The best brains of the nations may be found on the last benches of the classrooms.</q><br>
-                <strong>-APJ Abdul Kalam</strong>
-            </div>
-             <div class="searchbar">
-	<input type="text" placeholder="Search..." name="searchbar">
-	<button type="submit"><i class="fa fa-search"></i></button>
-             </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 100 1350 220" style="margin-bottom:-3px;">
-            <path fill="#273036" fill-opacity="5" d="M0,128L34.3,149.3C68.6,171,137,213,206,213.3C274.3,213,343,171,411,170.7C480,171,549,213,617,224C685.7,235,754,213,823,181.3C891.4,149,960,107,1029,106.7C1097.1,107,1166,149,1234,170.7C1302.9,192,1371,192,1406,192L1440,192L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
-        </path>
-    </svg>
-    </div>
-    <!--BANNER SECTION OF C,C++,C#,JAVA,HTML,CSS-->
-    <div class="subject" style="background-color: #91fc81;">
-	<div class="resources">
-		<h1 class="subjectheading">C Programming</h1>
-		<strong class="subjectresources" style="width:170px;text-align:center;margin-left:145px;">Book Reference</strong><br>
-		<strong class="subjectresources" style="width:230px;text-align:center">Video Tutotials Playlist</strong><br>
-		<strong class="subjectresources" style="width:170px;text-align:center;margin-left:145px;">Online Resources</strong><br>
+	<div class="navbar clearfix">
+		<div class="homepage" style="margin-top:7px;margin-left:10px;"><img src="homepage.png"></div>
+		<div class="cse" style="padding-left: 22px; padding-right: 23px;margin-left:0px;">CSE <i class="fas fa-caret-down"></i>
+		<div class="cse-semesters"> 
+			<a href="#">Semester I</a>
+			<a href="#">Semester II</a>
+			<a href="#">Semester III</a>
+			<a href="#">Semester IV</a>
+			<a href="#">Semester V</a>
+			<a href="#">Semester VI</a>
+		  </div></div>
+		<div class="itesm">ITESM <i class="fas fa-caret-down"></i>
+		<div class="itesm-semesters" style="left: -1px;">
+			<a href="#">Semester I</a>
+			<a href="#">Semester II</a>
+			<a href="#">Semester III</a>
+			<a href="#">Semester IV</a>
+			<a href="#">Semester V</a>
+		  </div></div>
+		<div class="online">ONLINE RESOURCES</div>
+		<div class="login">Login</div>
+		<div class="help" style="padding: 6px 18px;margin: 10px;">Help</div>
+		<div class="navsearch">
+		<button type="submit" class="navsearchbutton"><i class="fa fa-search"></i></button>
+		<input type="text" placeholder="Search..." name="search" class="navsearchbar"></div>
+		</div>
+	<div style="background-color: #484d57;">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1350 100">
+			<path fill="#273036" fill-opacity="1"
+				d="M0,224L48,224C96,224,192,224,288,213.3C384,203,480,181,576,160C672,139,768,117,864,133.3C960,149,1056,203,1152,202.7C1248,203,1344,149,1392,122.7L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+			</path>
+		</svg>
+		<div style="text-align: center;" class="logo">
+			<img src="logo.png"
+				style="width:400px; height:400px; vertical-align: top;margin-top:10px;margin-bottom:15px;">
+			<h1 style="color: #ffffff;width:350px; text-align: center;margin:auto;" class="webname1">SANCTUM LIBRARY
+			</h1>
+		</div>
+		<div class="quote1">
+			<q>The best brains of the nations may be found on the last benches of the classrooms.</q><br>
+			<strong>-APJ Abdul Kalam</strong>
+		</div>
+		<div class="searchbar">
+			<input type="text" placeholder="Search..." name="searchbar">
+			<button type="submit"><i class="fa fa-search"></i></button>
+		</div>
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 100 1350 220" style="margin-bottom:-3px;">
+			<path fill="#273036" fill-opacity="5"
+				d="M0,128L34.3,149.3C68.6,171,137,213,206,213.3C274.3,213,343,171,411,170.7C480,171,549,213,617,224C685.7,235,754,213,823,181.3C891.4,149,960,107,1029,106.7C1097.1,107,1166,149,1234,170.7C1302.9,192,1371,192,1406,192L1440,192L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
+			</path>
+		</svg>
 	</div>
-	<div class="videotutorial">
-		<iframe class="video" src="https://www.youtube.com/embed/ZSPZob_1TOk" allowfullscreen style="width:520px;height:300px">
-		</iframe>
+	<!--BANNER SECTION OF C,C++,C#,JAVA,HTML,CSS-->
+	<div class="subject" style="background-color: #91fc81;">
+		<div class="resources">
+			<h1 class="subjectheading">C Programming</h1>
+			<strong class="subjectresources" style="width:170px;text-align:center;margin-left:145px;">Book
+				Reference</strong><br>
+			<strong class="subjectresources" style="width:230px;text-align:center">Video Tutotials Playlist</strong><br>
+			<strong class="subjectresources" style="width:170px;text-align:center;margin-left:145px;">Online
+				Resources</strong><br>
+		</div>
+		<div class="videotutorial">
+			<iframe class="video" src="https://www.youtube.com/embed/ZSPZob_1TOk" allowfullscreen
+				style="width:520px;height:300px">
+			</iframe>
+		</div>
 	</div>
-    </div>
-    <div class="subject" style="background-color: #F3ECEA;">
-	<div class="resources">
-		<h1 class="subjectheading">C++ Programming</h1>
-		<strong class="subjectresources" style="width:170px;text-align:center;margin-left:145px;">Book Reference</strong><br>
-		<strong class="subjectresources" style="width:230px;text-align:center">Video Tutotials Playlist</strong><br>
-		<strong class="subjectresources" style="width:170px;text-align:center;margin-left:145px;">Online Resources</strong><br>
+	<div class="subject" style="background-color: #F3ECEA;">
+		<div class="resources">
+			<h1 class="subjectheading">C++ Programming</h1>
+			<strong class="subjectresources" style="width:170px;text-align:center;margin-left:145px;">Book
+				Reference</strong><br>
+			<strong class="subjectresources" style="width:230px;text-align:center">Video Tutotials Playlist</strong><br>
+			<strong class="subjectresources" style="width:170px;text-align:center;margin-left:145px;">Online
+				Resources</strong><br>
+		</div>
+		<div class="videotutorial">
+			<iframe class="video" src="https://www.youtube.com/embed/yGB9jhsEsr8" allowfullscreen
+				style="width:520px;height:300px">
+			</iframe>
+		</div>
 	</div>
-	<div class="videotutorial">
-		<iframe class="video" src="https://www.youtube.com/embed/yGB9jhsEsr8" allowfullscreen style="width:520px;height:300px">
-		</iframe>
+	<div class="subject" style="background-color: #96D4D4;">
+		<div class="resources">
+			<h1 class="subjectheading">Java Programming</h1>
+			<strong class="subjectresources" style="width:170px;text-align:center;margin-left:145px;">Book
+				Reference</strong><br>
+			<strong class="subjectresources" style="width:230px;text-align:center">Video Tutotials Playlist</strong><br>
+			<strong class="subjectresources" style="width:170px;text-align:center;margin-left:145px;">Online
+				Resources</strong><br>
+		</div>
+		<div class="videotutorial">
+			<iframe class="video" src="https://www.youtube.com/embed/rV_3Lewxx6o" allowfullscreen
+				style="width:520px;height:300px">
+			</iframe>
+		</div>
 	</div>
-    </div>
-    <div class="subject" style="background-color: #96D4D4;">
-	<div class="resources">
-		<h1 class="subjectheading">Java Programming</h1>
-		<strong class="subjectresources" style="width:170px;text-align:center;margin-left:145px;">Book Reference</strong><br>
-		<strong class="subjectresources" style="width:230px;text-align:center">Video Tutotials Playlist</strong><br>
-		<strong class="subjectresources" style="width:170px;text-align:center;margin-left:145px;">Online Resources</strong><br>
+	<div class="subject" style="background-color: #FFC0C7;">
+		<div class="resources">
+			<h1 class="subjectheading" style="margin-left: 140px;">HTML5</h1>
+			<strong class="subjectresources" style="width:170px;text-align:center;margin-left:145px;">Book
+				Reference</strong><br>
+			<strong class="subjectresources" style="width:230px;text-align:center">Video Tutotials Playlist</strong><br>
+			<strong class="subjectresources" style="width:170px;text-align:center;margin-left:145px;">Online
+				Resources</strong><br>
+		</div>
+		<div class="videotutorial">
+			<iframe class="video" src="https://www.youtube.com/embed/E3ByCRqE7Lo" allowfullscreen
+				style="width:520px;height:300px">
+			</iframe>
+		</div>
 	</div>
-	<div class="videotutorial">
-		<iframe class="video" src="https://www.youtube.com/embed/rV_3Lewxx6o" allowfullscreen style="width:520px;height:300px">
-		</iframe>
+	<div class="subject" style="background-color: #80848a;">
+		<div class="resources">
+			<h1 class="subjectheading" style="margin-left: 170px;">CSS3</h1>
+			<strong class="subjectresources" style="width:170px;text-align:center;margin-left:145px;">Book
+				Reference</strong><br>
+			<strong class="subjectresources" style="width:230px;text-align:center">Video Tutotials Playlist</strong><br>
+			<strong class="subjectresources" style="width:170px;text-align:center;margin-left:145px;">Online
+				Resources</strong><br>
+		</div>
+		<div class="videotutorial">
+			<iframe class="video" src="https://www.youtube.com/embed/u5-K_ua9sOw" allowfullscreen
+				style="width:520px;height:300px">
+			</iframe>
+		</div>
 	</div>
-    </div>
-    <div class="subject" style="background-color: #FFC0C7;">
-	<div class="resources">
-		<h1 class="subjectheading" style="margin-left: 140px;">HTML5</h1>
-		<strong class="subjectresources" style="width:170px;text-align:center;margin-left:145px;">Book Reference</strong><br>
-		<strong class="subjectresources" style="width:230px;text-align:center">Video Tutotials Playlist</strong><br>
-		<strong class="subjectresources" style="width:170px;text-align:center;margin-left:145px;">Online Resources</strong><br>
+	<div class="subject" style="background-color: #FFF4A3;">
+		<div class="resources">
+			<h1 class="subjectheading">C# Programming</h1>
+			<strong class="subjectresources" style="width:170px;text-align:center;margin-left:145px;">Book
+				Reference</strong><br>
+			<strong class="subjectresources" style="width:230px;text-align:center">Video Tutotials Playlist</strong><br>
+			<strong class="subjectresources" style="width:170px;text-align:center;margin-left:145px;">Online
+				Resources</strong><br>
+		</div>
+		<div class="videotutorial">
+			<iframe class="video" src="https://www.youtube.com/embed/SuLiu5AK9Ps" allowfullscreen
+				style="width:520px;height:300px">
+			</iframe>
+		</div>
 	</div>
-	<div class="videotutorial">
-		<iframe class="video" src="https://www.youtube.com/embed/E3ByCRqE7Lo" allowfullscreen style="width:520px;height:300px">
-		</iframe>
+	<div class="othersubjects">
+		<div class="othersubject" style="background-color: #FFC0C7;">Applied Mathematics - I<br>
+			<q class="otherquotes">Pure mathematics is, in its way, the poetry of logical ideas.</q><br>
+			<p class="otherauthor">-Albert Einstein</p>
+		</div>
+		<div class="othersubject" style="background-color: #96D4D4;">Basic Electronics<br>
+			<q class="otherquotes">Electronics is clearly the winner of the day.</q><br>
+			<p class="otherauthor">-John Ford</p>
+		</div>
+		<div class="othersubject" style="background-color: #96D4D4;">Electrical Engineering<br>
+			<q class="otherquotes">It is not a dream, it is a simple feat of scientific electrical engineering only
+				expensive blind, faint-hearted, doubting world.</q>
+			<br>
+			<p class="otherauthor">-Nikola Tesla</p>
+		</div>
+		<div class="othersubject" style="background-color: #FFC0C7;">Operating Systems<br>
+			<q class="otherquotes">The definition of an 'operating system' is bound to evolve with customer demands and
+				technological possibilities.</q>
+			<br>
+			<p class="otherauthor">-Virginia Postrel</p>
+		</div>
+		<div class="othersubject" style="background-color: #FFC0C7;">Workshop Practice<br>
+			<q class="otherquotes">All the best ideas come out of process, they come out of the work itself.</q>
+			<br>
+			<p class="otherauthor">-Chuck Close</p>
+		</div>
+		<div class="othersubject" style="background-color: #96D4D4;">Communications Skills<br>
+			<q class="otherquotes">The most important thing in communication is to hear what isn’t being said.</q>
+			<br>
+			<p class="otherauthor">-Peter Drucker</p>
+		</div>
+		<div class="othersubject" style="background-color: #96D4D4;">Engineering Drawing<br>
+			<q class="otherquotes">You see, my ambition was not to confound the engineering world but simply to create a
+				beautiful piece of art.</q>
+			<br>
+			<p class="otherauthor">-Kit Williams</p>
+		</div>
+		<div class="othersubject" style="background-color: #FFC0C7;">Information Technology<br>
+			<q class="otherquotes">The Web as I envisaged it, we have not seen it yet. The future is still so much
+				bigger than the past.</q>
+			<br>
+			<p class="otherauthor">Tim Berners-Lee</p>
+		</div>
 	</div>
-    </div>
-    <div class="subject" style="background-color: #80848a;">
-	<div class="resources">
-		<h1 class="subjectheading" style="margin-left: 170px;">CSS3</h1>
-		<strong class="subjectresources" style="width:170px;text-align:center;margin-left:145px;">Book Reference</strong><br>
-		<strong class="subjectresources" style="width:230px;text-align:center">Video Tutotials Playlist</strong><br>
-		<strong class="subjectresources" style="width:170px;text-align:center;margin-left:145px;">Online Resources</strong><br>
-	</div>
-	<div class="videotutorial">
-		<iframe class="video" src="https://www.youtube.com/embed/u5-K_ua9sOw" allowfullscreen style="width:520px;height:300px">
-		</iframe>
-	</div>
-    </div>
-    <div class="subject" style="background-color: #FFF4A3;">
-	<div class="resources">
-		<h1 class="subjectheading">C# Programming</h1>
-		<strong class="subjectresources" style="width:170px;text-align:center;margin-left:145px;">Book Reference</strong><br>
-		<strong class="subjectresources" style="width:230px;text-align:center">Video Tutotials Playlist</strong><br>
-		<strong class="subjectresources" style="width:170px;text-align:center;margin-left:145px;">Online Resources</strong><br>
-	</div>
-	<div class="videotutorial">
-		<iframe class="video" src="https://www.youtube.com/embed/SuLiu5AK9Ps" allowfullscreen style="width:520px;height:300px">
-		</iframe>
-	</div>
-    </div>
-    <div class="othersubjects">
- 	 <div class="othersubject" style="background-color: #FFC0C7;">Applied Mathematics - I<br>
-		<q class="otherquotes">Pure mathematics is, in its way, the poetry of logical ideas.</q><br><p class="otherauthor">-Albert Einstein</p>
-	</div>
-  	<div class="othersubject" style="background-color: #96D4D4;">Basic Electronics<br>
-		<q class="otherquotes">Electronics is clearly the winner of the day.</q><br><p class="otherauthor">-John Ford</p>
-	</div>
-  	<div class="othersubject" style="background-color: #96D4D4;">Electrical Engineering<br>
-		<q class="otherquotes">It is not a dream, it is a simple feat of scientific electrical engineering only expensive blind, faint-hearted, doubting world.</q>
-		<br><p class="otherauthor">-Nikola Tesla</p>
-	</div>  
-  	<div class="othersubject" style="background-color: #FFC0C7;">Operating Systems<br>
-		<q class="otherquotes">The definition of an 'operating system' is bound to evolve with customer demands and technological possibilities.</q>
-		<br><p class="otherauthor">-Virginia Postrel</p>
-	</div>
-  	<div class="othersubject" style="background-color: #FFC0C7;">Workshop Practice<br>
-		<q class="otherquotes">All the best ideas come out of process, they come out of the work itself.</q>
-		<br><p class="otherauthor">-Chuck Close</p>
-	</div>
-  	<div class="othersubject" style="background-color: #96D4D4;">Communications Skills<br>
-		<q class="otherquotes">The most important thing in communication is to hear what isn’t being said.</q>
-		<br><p class="otherauthor">-Peter Drucker</p>
-	</div>  
-  	<div class="othersubject" style="background-color: #96D4D4;">Engineering Drawing<br>
-		<q class="otherquotes">You see, my ambition was not to confound the engineering world but simply to create a beautiful piece of art.</q>
-		<br><p class="otherauthor">-Kit Williams</p>
-	</div>
-  	<div class="othersubject" style="background-color: #FFC0C7;">Information Technology<br>
-		<q class="otherquotes">The Web as I envisaged it, we have not seen it yet. The future is still so much bigger than the past.</q>
-		<br><p class="otherauthor">Tim Berners-Lee</p>
-	</div>
-    </div>
-    <!--DATABASE SUBJECTS BANNER *4 in 2 lines-->
+	<!--DATABASE SUBJECTS BANNER *4 in 2 lines-->
 	<div class="coursesubjects">
-		<div class="coursesubject" style="background-color: #96D4D4;"><p>Applied Physics-I</p></div>
-		<div class="coursesubject" style="background-color: #FFC0C7;"><p>Applied Maths-II</p></div>
-		<div class="coursesubject" style="background-color: #96D4D4;"><p>Digital Electronics</p></div>
-		<div class="coursesubject" style="background-color: #FFC0C7;"><p>Data structure in C</p></div>
-		<div class="coursesubject" style="background-color: #FFC0C7;"><p>Micro Processor</p></div>
-		<div class="coursesubject" style="background-color: #96D4D4;"><p>Computer Organization</p></div>
-		<div class="coursesubject" style="background-color: #FFC0C7;"><p>Data Communication</p></div>
-		<div class="coursesubject" style="background-color: #96D4D4;"><p>Computer Workshop-I</p></div>
-		<div class="coursesubject" style="background-color: #96D4D4;"><p>Computer Workshop-II</p></div>
-		<div class="coursesubject" style="background-color: #FFC0C7;"><p>Computer Network</p></div>
-		<div class="coursesubject" style="background-color: #96D4D4;"><p>Computer Graphics</p></div>
-		<div class="coursesubject" style="background-color: #FFC0C7;"><p>Computer Workshop-III</p></div>
+		<div class="coursesubject" style="background-color: #96D4D4;">
+			<p>Applied Physics-I</p>
+		</div>
+		<div class="coursesubject" style="background-color: #FFC0C7;">
+			<p>Applied Maths-II</p>
+		</div>
+		<div class="coursesubject" style="background-color: #96D4D4;">
+			<p>Digital Electronics</p>
+		</div>
+		<div class="coursesubject" style="background-color: #FFC0C7;">
+			<p>Data structure in C</p>
+		</div>
+		<div class="coursesubject" style="background-color: #FFC0C7;">
+			<p>Micro Processor</p>
+		</div>
+		<div class="coursesubject" style="background-color: #96D4D4;">
+			<p>Computer Organization</p>
+		</div>
+		<div class="coursesubject" style="background-color: #FFC0C7;">
+			<p>Data Communication</p>
+		</div>
+		<div class="coursesubject" style="background-color: #96D4D4;">
+			<p>Computer Workshop-I</p>
+		</div>
+		<div class="coursesubject" style="background-color: #96D4D4;">
+			<p>Computer Workshop-II</p>
+		</div>
+		<div class="coursesubject" style="background-color: #FFC0C7;">
+			<p>Computer Network</p>
+		</div>
+		<div class="coursesubject" style="background-color: #96D4D4;">
+			<p>Computer Graphics</p>
+		</div>
+		<div class="coursesubject" style="background-color: #FFC0C7;">
+			<p>Computer Workshop-III</p>
+		</div>
 	</div>
 	<div class="extrasubjects">
-		<div class="extrasubject" style="background-color: #f87b89;"><p>Object Oriented Programming</p></div>
-		<div class="extrasubject" style="background-color: #48ffff;"><p>Data Base Management System</p></div>
-		<div class="extrasubject" style="background-color: #f87b89;"><p>Peipherals And Interfaces</p></div>
-		<div class="extrasubject" style="background-color: #48ffff;"><p>Software Engineering</p></div>
-		<div class="extrasubject" style="background-color: #f87b89;"><p>Advance Computer Architecture</p></div>
-		<div class="extrasubject" style="background-color: #48ffff;"><p>Multimedia Application</p></div>
+		<div class="extrasubject" style="background-color: #f87b89;">
+			<p>Object Oriented Programming</p>
+		</div>
+		<div class="extrasubject" style="background-color: #48ffff;">
+			<p>Data Base Management System</p>
+		</div>
+		<div class="extrasubject" style="background-color: #f87b89;">
+			<p>Peipherals And Interfaces</p>
+		</div>
+		<div class="extrasubject" style="background-color: #48ffff;">
+			<p>Software Engineering</p>
+		</div>
+		<div class="extrasubject" style="background-color: #f87b89;">
+			<p>Advance Computer Architecture</p>
+		</div>
+		<div class="extrasubject" style="background-color: #48ffff;">
+			<p>Multimedia Application</p>
+		</div>
 	</div>
-	<div class="lineaboutuss">
+	<div class="lineaboutus">
 		<div>
 			<br>
-			<p class="webname">Sanctum Library</p><p class="webmotto">"Every Resource in one place"</p>
+			<p class="webname">Sanctum Library</p>
+			<p class="webmotto">"Every Resource in one place"</p>
 			<img src="learn-on-the-go.png" class="learn-on-the-go">
 		</div>
 	</div>
-    <div style="background-color: #484d57; margin: 0%; padding: 0%; overflow: hidden;">
-        <footer>
-            <div style="text-align: center;">
-                <span class="feedback">Feedback</span> <span class="contactus">Contact Us</span>
-            </div>
-            <div class="aboutus">About Us</div>
-            <hr style="border:0.5px solid #273036">
-            <div class="social" >
-                <div style="margin-bottom: 10px ;"><strong style="color: #2b2424;">Developer Social</strong></div>
-                <a href="https://www.instagram.com/iam.lxcifer" class="socialicon"><img src="instagram.png" class="socialicon"></a>
-                <a href="https://www.facebook.com/mrpriyamshukla" class="socialicon"><img src="facebook.png" class="socialicon"></a>
-                <a href="https://www.twitter.com/mrpriyamshukla" class="socialicon"><img src="twitter.png" class="socialicon"></a>
-                <a href="https://www.linkedin.com/in/mrpriyamshukla" class="socialicon"><img src="linkedin.png" class="socialicon"></a>
-            </div>
-        </footer>
-    </div>
+	<div style="background:#9bb0be80 url(strangecontact.png) no-repeat fixed;background-size:cover;">
+		<div class="subjectlists">
+			<div>
+				<p class="subjectlistheading"><strong>CSE Subjects</strong></p>
+				<div class="subjectlistcse">
+					<ul>
+						<li>Communication Skills</li>
+						<li>Applied Maths - I</li>
+						<li>Engineering Drawing</li>
+						<li>Introduction to Information Technology</li>
+						<li>Workshop Practice</li>
+						<li>Applied Maths - II</li>
+						<li>Applied Physics-I</li>
+						<li>Basic Electronics</li>
+						<li>Electrical Engineering</li>
+						<li>Programming in C</li>
+						<li>Operating System</li>
+						<li>Digital Electronics</li>
+						<li>Data Structure in C</li>
+						<li>Micro Processor</li>
+						<li>Computer Workshop - I</li>
+						<li>Object Oriented Programming</li>
+					</ul>
+				</div>
+				<div class="subjectlistcse">
+					<ul>
+						<li>Computer Organisation</li>
+						<li>Data Communication</li>
+						<li>Data Base Management System</li>
+						<li>Peripherals and Interface</li>
+						<li>Computer Workshop - II</li>
+						<li>Computer Troubleshooting and Maintainence</li>
+						<li>Computer Network</li>
+						<li>Programming in Java</li>
+						<li>Entrepreneurship Development and Management</li>
+						<li> Computer Workshop - III</li>
+						<li>Computer Graphics</li>
+						<li>Software Engineer</li>
+						<li>Advance Computer System and Architecture</li>
+						<li>Multimedia Applications</li>
+						<li>Network Security</li>
+						<li>Major Project Guidance</li>
+					</ul>
+				</div>
+			</div>
+			<div>
+				<p class="subjectlistheading"><strong>ITESM Subjects</strong></p>
+				<div class="subjectlistitesm">
+					<ul>
+						<li>Communication Skills</li>
+						<li>Applied Maths - I</li>
+						<li>Engineering Drawing</li>
+						<li>Introduction to Information Technology</li>
+						<li>Workshop Practice</li>
+						<li>Applied Maths - II</li>
+						<li>Applied Physics-I</li>
+						<li>Basic Electronics</li>
+						<li>Electrical Engineering</li>
+						<li>Programming in C</li>
+						<li>Data Base Management System</li>
+						<li>Front-End Technique</li>
+						<li>Digital Electronics</li>
+						<li>Micro Processor</li>
+						<li>Networking Fundamentals</li>
+					</ul>
+				</div>
+				<div class="subjectlistitesm">
+					<ul>
+						<li>Object Oriented Programming</li>
+						<li>Programming in Java</li>
+						<li>Web Designing</li>
+						<li>Network Technology and Management</li>
+						<li>Entrepreneurship Development and Management</li>
+						<li>Language Lab(English/French)</li>
+						<li>Customer Relation Management</li>
+						<li>Telecom Services Management</li>
+						<li>Personality Development and Behavioral Science</li>
+						<li>Cyber Security and Cyber Laws</li>
+						<li>E-Commerce and M-Commerce</li>
+						<li>Computer Graphics</li>
+						<li>Advance Computer System and Architecture</li>
+						<li>Communication Lab (English and French)</li>
+						<li>Minor Project Guidance</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr style="border:0.5px solid #273036">
+	<div class="contact" style="background-color: #484d57; margin: 0%; padding: 0%; overflow: hidden;">
+		<footer>
+			<div style="text-align: center;">
+				<div class="feedback">Feedback</div> <div class="contactus">Contact Us</div>
+			</div>
+			<div class="aboutus">About Us</div>
+			<hr style="border:0.5px solid #273036">
+			<div class="social">
+				<div style="margin-bottom: 10px ;"><strong style="color: #2b2424;">Developer Social</strong></div>
+				<a href="https://www.instagram.com/iam.lxcifer" class="socialicon"><img
+						src="instagram.png" class="socialicon"></a>
+				<a href="https://www.facebook.com/mrpriyamshukla" class="socialicon"><img
+						src="facebook.png" class="socialicon"></a>
+				<a href="https://www.twitter.com/mrpriyamshukla" class="socialicon"><img
+						src="twitter.png" class="socialicon"></a>
+				<a href="https://www.linkedin.com/in/mrpriyamshukla" class="socialicon"><img
+						src="linkedin.png" class="socialicon"></a>
+			</div>
+		</footer>
+	</div>
 </body>
+
 </html>
