@@ -160,7 +160,9 @@ a {
   color: black;
   overflow-x: hidden;
 }
-
+.logo>img{
+  transition: 0.2s; 
+}
 .logo>img:hover {
   transform: scale(1.05);
 }
