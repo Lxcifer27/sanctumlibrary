@@ -276,7 +276,7 @@ a {
 .subjectresources,
 .coursesubject,
 .extrasubject {
-  transition: 0.2s,
+  transition: 0.2s;
 }
 .othersubject:hover,
 .subjectresources:hover,
@@ -456,5 +456,5 @@ ul {
 }
 
 .socialicon:hover {
-  transform: scale(1.05);
+  transform: scale(2.05);
 }
