@@ -272,7 +272,12 @@ a {
 .subjectresources:hover {
   background-color: #9bb0be;
 }
-
+.othersubject,
+.subjectresources,
+.coursesubject,
+.extrasubject {
+  transition: 0.2s,
+}
 .othersubject:hover,
 .subjectresources:hover,
 .coursesubject:hover,
@@ -354,6 +359,9 @@ a {
   border-bottom-left-radius: 100px;
   border-bottom-right-radius: 150px;
 }
+.webname1,
+.webname {
+  transition: 0.2s; }
 
 .webname1:hover,
 .webname:hover {
@@ -412,6 +420,10 @@ ul {
 .contactus {
   float: right;
 }
+.feedback,
+.contactus,
+.aboutus {
+  transition: 0.2s; }
 
 .feedback:hover,
 .contactus:hover,
@@ -440,6 +452,7 @@ ul {
   width: 20px;
   height: 20px;
   margin: 2px;
+  transition: 0.2s;
 }
 
 .socialicon:hover {
