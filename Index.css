@@ -369,7 +369,7 @@ a {
 }
 
 .lineaboutus {
-  background: #e0d4d440 url("/RESOURCES/IMAGES/reading-book.png") no-repeat fixed;
+  background: #e0d4d440 url("reading-book.png") no-repeat fixed;
   background-size: cover;
 }
 
