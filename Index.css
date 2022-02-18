@@ -36,17 +36,22 @@ body {
   padding: 6px 18px;
   margin-top: 10px;
 }
+
 .help:hover {
   background-color: #638196;
   border-radius: 15px;
 }
+
 .login:hover {
   background-color: #9bb0be;
 }
+
 .homepage,
 .cse,
 .itesm,
-.online, .help, .login {
+.online,
+.help,
+.login {
   margin-right: 10px;
   float: left;
   cursor: pointer;
@@ -160,9 +165,11 @@ a {
   color: black;
   overflow-x: hidden;
 }
-.logo>img{
-  transition: 0.2s; 
+
+.logo>img {
+  transition: 0.2s;
 }
+
 .logo>img:hover {
   transform: scale(1.05);
 }
@@ -272,12 +279,14 @@ a {
 .subjectresources:hover {
   background-color: #9bb0be;
 }
+
 .othersubject,
 .subjectresources,
 .coursesubject,
 .extrasubject {
   transition: 0.2s;
 }
+
 .othersubject:hover,
 .subjectresources:hover,
 .coursesubject:hover,
@@ -353,15 +362,25 @@ a {
   font-size: 120px;
   width: 900px;
   margin: auto;
-  background-color: rgba(255, 0, 64, 0.3);
-  color: #041950;
-  border-top-left-radius: 100px;
-  border-bottom-left-radius: 100px;
-  border-bottom-right-radius: 150px;
+  background-color: rgba(255, 0, 0, 0.438);
+  color: #030f2b94;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
+
+.webname:hover {
+  background-color: rgba(255, 0, 0);
+  color: #030f2b;
+}
+
+.webmotto:hover {
+  color: rgb(255, 17, 0);
+}
+
 .webname1,
 .webname {
-  transition: 0.2s; }
+  transition: 0.2s;
+}
 
 .webname1:hover,
 .webname:hover {
@@ -420,10 +439,12 @@ ul {
 .contactus {
   float: right;
 }
+
 .feedback,
 .contactus,
 .aboutus {
-  transition: 0.2s; }
+  transition: 0.2s;
+}
 
 .feedback:hover,
 .contactus:hover,
