@@ -633,3 +633,78 @@ ul {
     font-size: 25px;
   }
 }
+
+/* for 720 devices */
+@media only screen and (min-width: 720px) {
+
+  .navbar, .svg2 {
+    display: none;
+  }
+  .svg3 {
+    display: block;
+  }
+
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12 {
+    width: 100%;
+  }
+
+  .searchbar {
+    margin-bottom: 15px;
+  }
+
+  .searchbar input[type=text] {
+    margin: auto;
+    width: 60%;
+    margin-left: 60px;
+  }
+
+  .subject {
+    display: none;
+  }
+
+  .othersubjects {
+    margin: 0;
+  }
+
+  .othersubject {
+    font-size: 40px;
+    width: 630px;
+    height: auto;
+  }
+
+  .othersubject q,
+  .othersubject p {
+    font-size: 20px;
+  }
+
+  .coursesubjects .col-3 {
+    width: 50%;
+  }
+  .coursesubject {
+    height: auto;
+    width: 250px;
+  }
+  .webname {
+    max-width: 450px;
+    font-size: 60px;
+  }
+
+
+  .webmotto {
+    font-size: 25px;
+  }
+  .subjectlistcse, .subjectlistitesm {
+    width: 50%;
+  }
+}
