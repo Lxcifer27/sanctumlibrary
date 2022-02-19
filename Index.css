@@ -431,9 +431,9 @@ a {
 .learn-on-the-go {
   height: 550px;
 }
-.subjectlistsdiv { 
-  background:#9bb0be80 url(strangecontact.png) no-repeat fixed;
-  background-size:cover;
+.subjectlistsdiv {
+  background: #9bb0be80 url("strangecontact.png") no-repeat fixed;
+  background-size: cover;
 }
 .subjectlists {
   text-align: center;
