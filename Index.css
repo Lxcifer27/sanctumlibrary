@@ -277,6 +277,7 @@ a {
 .subjectheading,
 .subjectresources {
   margin: auto;
+  padding-bottom: 10px;
   text-align: center;
 }
 
@@ -294,10 +295,10 @@ a {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
   font-size: 50px;
-  width: 594px;
+  max-width: 594px;
   height: 264px;
   margin: auto;
-  margin-top: 5px;
+  margin-top: 10px;
   border-radius: 10px;
 }
 
@@ -431,10 +432,12 @@ a {
 .learn-on-the-go {
   height: 550px;
 }
+
 .subjectlistsdiv {
   background: #9bb0be80 url("strangecontact.png") no-repeat fixed;
   background-size: cover;
 }
+
 .subjectlists {
   text-align: center;
   display: flex;
@@ -629,9 +632,6 @@ ul {
   .webmotto {
     font-size: 25px;
   }
-  .subjectlistsdiv {
-    background-position: center;
-  }
 }
 
 /* for 480 devices */
@@ -689,18 +689,21 @@ ul {
   .coursesubjects .col-3 {
     width: 50%;
   }
+
   .coursesubject {
     height: auto;
     width: 200px;
   }
+
   .webname {
     max-width: 450px;
     font-size: 60px;
   }
-  
+
   .webmotto {
     font-size: 25px;
   }
+
   .subjectlistsdiv {
     background-position: center;
   }
@@ -710,9 +713,11 @@ ul {
 /* for 720 devices */
 @media only screen and (min-width: 720px) {
 
-  .navbar, .svg2 {
+  .navbar,
+  .svg2 {
     display: none;
   }
+
   .svg3 {
     display: block;
   }
@@ -764,10 +769,12 @@ ul {
   .coursesubjects .col-3 {
     width: 50%;
   }
+
   .coursesubject {
     height: auto;
     width: 250px;
   }
+
   .webname {
     max-width: 450px;
     font-size: 60px;
@@ -777,10 +784,13 @@ ul {
   .webmotto {
     font-size: 25px;
   }
+
   .subjectlistsdiv {
     background-position: center;
   }
-  .subjectlistcse, .subjectlistitesm {
+
+  .subjectlistcse,
+  .subjectlistitesm {
     width: 50%;
   }
 }
@@ -809,45 +819,76 @@ ul {
   .col-12 {
     width: 100%;
   }
-
   .searchbar input[type=text] {
     margin: auto;
+    width: 70%;
+    margin-left: 60px;
+  }
+  .extrasubjects .col-4 {
     width: 50%;
-    margin-left: 100px;
+    max-width: 375px;
   }
-
-  .subject {
-    display: flex;
-  }
-
-  .othersubject {
-    font-size: 40px;
-    width: 550px;
-    height: auto;
-  }
-
-  .othersubject q,
-  .othersubject p {
-    font-size: 20px;
-  }
-
-  .webname {
-    max-width: 450px;
-    font-size: 60px;
-  }
-
-
-  .webmotto {
-    font-size: 25px;
-  }
-
-  .subjectlistsdiv {
-    background-position: center;
-  }
-  .subjectlists .col-6,
-  .coursesubjects .col-3 {
+  .subjectlistcse, .subjectlistitesm {
     width: 50%;
   }
 }
 
+/* laptop screen */
+@media only screen and (min-width: 1280px) {
+  .svg2 {
+    display: none;
+  }
+
+  .navbar,
+  .svg3 {
+    display: block;
+  }
+
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12 {
+    width: 100%;
+  }
+  .subject {
+    display: flex;
+  }
+  .searchbar input[type=text] {
+    margin: auto;
+    width: 100%;
+    margin-left: 80px;
+  }
+  .othersubjects .col-6 {
+    width: 50%;
+     max-width: 594px;
+  }
+  .coursesubjects .col-3 {
+    width: auto;
+  }
+  .extrasubjects .col-4 {
+    width: 50%;
+    max-width: 375px;
+  }
+  .subjectlistcse, .subjectlistitesm {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 1310px) {
+  .coursesubjects .col-3 {
+    width: 25%;
+  }
+  .searchbar input[type=text] {
+    margin: auto;
+    width: 100%;
+    margin-left: 110px;
+  }
+}
 /**/
