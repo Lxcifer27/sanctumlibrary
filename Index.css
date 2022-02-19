@@ -626,6 +626,9 @@ ul {
   .webmotto {
     font-size: 25px;
   }
+  .subjectlistsdiv {
+    background-position: center;
+  }
 }
 
 /* for 480 devices */
@@ -691,10 +694,12 @@ ul {
     max-width: 450px;
     font-size: 60px;
   }
-
-
+  
   .webmotto {
     font-size: 25px;
+  }
+  .subjectlistsdiv {
+    background-position: center;
   }
 }
 
@@ -769,6 +774,9 @@ ul {
   .webmotto {
     font-size: 25px;
   }
+  .subjectlistsdiv {
+    background-position: center;
+  }
   .subjectlistcse, .subjectlistitesm {
     width: 50%;
   }
@@ -830,6 +838,9 @@ ul {
     font-size: 25px;
   }
 
+  .subjectlistsdiv {
+    background-position: center;
+  }
   .subjectlists .col-6,
   .coursesubjects .col-3 {
     width: 50%;
