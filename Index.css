@@ -198,45 +198,6 @@ a {
   margin-bottom: 20px;
 }
 
-.searchbar {
-  margin: 10px;
-  margin-bottom: 50px;
-  margin-left: 10px;
-}
-
-.searchbar input[type=text] {
-  padding: 10px;
-  font-size: 17px;
-  border: 1px solid #484d57;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  float: left;
-  margin: auto;
-  max-width: 900px;
-  width: 100%;
-  background: #f1f1f1;
-  margin-bottom: 50px;
-  margin-left: 115px;
-}
-
-.searchbar input[type=text]:focus {
-  outline: none;
-}
-
-.searchbar button {
-  max-width: 200px;
-  width: 15%;
-  padding: 10px;
-  background: #2196F3;
-  color: white;
-  font-size: 17px;
-  border: 1px solid #484d57;
-  border-left: none;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  cursor: pointer;
-}
-
 .subject {
   display: flex;
 }
@@ -594,16 +555,6 @@ ul {
     width: 100%;
   }
 
-  .searchbar {
-    margin-bottom: 15px;
-  }
-
-  .searchbar input[type=text] {
-    margin: auto;
-    width: 50%;
-    margin-left: 50px;
-  }
-
   .subject {
     display: none;
   }
@@ -657,15 +608,6 @@ ul {
     width: 100%;
   }
 
-  .searchbar {
-    margin-bottom: 15px;
-  }
-
-  .searchbar input[type=text] {
-    margin: auto;
-    width: 60%;
-    margin-left: 60px;
-  }
 
   .subject {
     display: none;
@@ -735,16 +677,6 @@ ul {
   .col-11,
   .col-12 {
     width: 100%;
-  }
-
-  .searchbar {
-    margin-bottom: 15px;
-  }
-
-  .searchbar input[type=text] {
-    margin: auto;
-    width: 60%;
-    margin-left: 60px;
   }
 
   .subject {
@@ -819,11 +751,6 @@ ul {
   .col-12 {
     width: 100%;
   }
-  .searchbar input[type=text] {
-    margin: auto;
-    width: 70%;
-    margin-left: 60px;
-  }
   .extrasubjects .col-4 {
     width: 50%;
     max-width: 375px;
@@ -861,11 +788,6 @@ ul {
   .subject {
     display: flex;
   }
-  .searchbar input[type=text] {
-    margin: auto;
-    width: 100%;
-    margin-left: 80px;
-  }
   .othersubjects .col-6 {
     width: 50%;
      max-width: 594px;
@@ -884,11 +806,6 @@ ul {
 @media only screen and (min-width: 1310px) {
   .coursesubjects .col-3 {
     width: 25%;
-  }
-  .searchbar input[type=text] {
-    margin: auto;
-    width: 100%;
-    margin-left: 110px;
   }
 }
 /**/
