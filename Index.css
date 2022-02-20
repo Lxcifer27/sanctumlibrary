@@ -213,7 +213,7 @@ a {
 	outline: none;
 }
 
-.input-wrapper #searchbutton {
+.search-wrapper #searchbutton {
 	background-color: #2196F3;
 	border: none;
 	border-radius: 0 10px 10px 0;
