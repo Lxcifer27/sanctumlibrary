@@ -9,6 +9,8 @@
 	<link rel="stylesheet" href="Index.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
 		integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+	<link rel="stylesheet" href="slick.css">
+	<link rel="stylesheet" href="slick-theme.css">
 	<link rel="icon" href="logo.png">
 	<style>
 	</style>
@@ -311,6 +313,14 @@
 			<p>Multimedia Application</p>
 		</div></div>
 	</div>
+	<div class="reference-videos">
+		<div><iframe class="video" src="https://www.youtube.com/embed/u5-K_ua9sOw" allowfullscreen
+			style="width:520px;height:300px"></iframe></div>
+		<div><iframe class="video" src="https://www.youtube.com/embed/u5-K_ua9sOw" allowfullscreen
+			style="width:520px;height:300px"></iframe></div>
+		<div><iframe class="video" src="https://www.youtube.com/embed/u5-K_ua9sOw" allowfullscreen
+			style="width:520px;height:300px"></iframe></div>
+		</div>
 	<div class="subjectlistsdiv">
 		<div class="subjectlists">
 			<div>
@@ -415,6 +425,20 @@
 		</footer>
 	</div>
 </div>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick.min.js"></script>
+<script type="text/javascript" src="slick.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+	   $('.reference-videos').slick({
+		   dots: true,
+		   arrows: true,
+		   autoplay: true,
+		   autoplaySpeed: 2000
+	   }) 
+	});
+  </script>
 </body>
 
 </html>
