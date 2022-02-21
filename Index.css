@@ -492,6 +492,14 @@ ul {
 	transform: scale(1.2);
 }
 
+.reference-videos {
+	width: 570px;
+	margin: 0 auto;
+}
+.reference-videos div img {
+	width: 100%;
+	height: auto;
+}
 
 /* media query */
 
