@@ -1,5 +1,6 @@
 * {
 	box-sizing: border-box;
+	font-family: sans-serif;
 }
 
 html,
@@ -359,65 +360,17 @@ a {
 	padding: 25px;
 }
 
-.lineaboutus {
-	background: #e0d4d440 url("reading-book.png") no-repeat fixed;
-	background-size: cover;
-}
-
-.lineaboutus>div {
-	text-align: center;
-	font-size: 30px;
-	background-color: rgba(190, 155, 155, 0.3);
-	margin-top: 20px;
-}
-
-.lineaboutuss>p {
-	display: inline-block;
-}
-
-.webname {
-	font-size: 120px;
-	max-width: 900px;
-	width: 100%;
-	margin: auto;
-	background-color: rgba(255, 0, 0, 0.438);
-	color: #030f2b94;
-	border-top-left-radius: 50px;
-	border-bottom-right-radius: 50px;
-}
-
-.webname:hover {
-	background-color: rgba(255, 0, 0);
-	color: #030f2b;
-}
-
-.webmotto:hover {
-	color: rgb(255, 17, 0);
-}
-
-.webname1,
-.webname {
+.webname1 {
 	transition: transform linear 0.5s;
 }
 
-.webname1:hover,
-.webname:hover {
+.webname1:hover {
 	transform: scale(1.05);
-}
-
-.webmotto {
-	font-size: 50px;
-	margin: 10px;
-	margin-bottom: 50px;
-	color: rgb(85, 15, 33);
-}
-
-.learn-on-the-go {
-	height: 550px;
 }
 
 .subjectlistsdiv {
 	background: #9bb0be80 url("strangecontact.png") no-repeat fixed;
+	background-attachment: top;
 	background-size: cover;
 }
 
@@ -429,10 +382,19 @@ a {
 	font-size: 15px;
 }
 
-.subjectlistheading {
-	padding-right: 100%px;
+
+.sanctumbanner {
+	margin: 0;
+	padding: 0;
+	font-size: 0;
 }
 
+.sanctumbanner img {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
 ul {
 	list-style-type: none;
 }
@@ -447,34 +409,26 @@ ul {
 	background-color: rgba(201, 197, 119, 0.5);
 }
 
-.feedback,
-.aboutus {
-	max-width: 250px;
-	float: left;
+.contact {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
 	text-align: center;
-	font-size: 50px;
-	padding: 10px;
-	background-color: #9bb0be;
-	margin: 20px;
-	border-radius: 10px;
+	font-size: 1.4rem;
 }
-
-.aboutus {
-	float: right;
+.contact div {
+	background-color: rgb(180, 180, 180);
+	padding: 1%;
+	margin: 1%;
+	margin-left: 11.5%;
+	margin-right: 11.5%;
+	border-radius: 2rem;
+	cursor: pointer;
 }
-
-.feedback,
-.aboutus {
-	transition: transform 0.5s;
+.contact div:hover {
+	background-color: #e0dbdb;
 }
-
-.feedback:hover,
-.aboutus:hover {
-	background-color: #638196;
-	transform: scale(1.05);
-	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-}
-
 .social {
 	text-align: center;
 	margin-bottom: 10px;
@@ -492,14 +446,6 @@ ul {
 	transform: scale(1.2);
 }
 
-.reference-videos {
-	width: 570px;
-	margin: 0 auto;
-}
-.reference-videos div img {
-	width: 100%;
-	height: auto;
-}
 
 /* media query */
 
@@ -566,14 +512,28 @@ ul {
 	margin: auto;
 }
 
+/* test */
+.reference-videos {
+	width: 570px;
+	margin: 0 auto;
+}
 
+.reference-videos div img {
+	width: 100%;
+	height: auto;
+}
+
+/* media query */
 /* for iphone5 */
 
 @media only screen and (min-width: 320px) {
+
 	.navbar,
-	.svg3, .reference-videos {
+	.svg3,
+	.reference-videos {
 		display: none!important;
 	}
+
 	.col-1,
 	.col-2,
 	.col-3,
@@ -588,30 +548,32 @@ ul {
 	.col-12 {
 		width: 100%;
 	}
+
 	.subject {
 		display: none;
 	}
+
 	.othersubjects {
 		margin: 0;
 	}
+
 	.othersubject {
 		font-size: 20px;
 		width: 250px;
 		height: auto;
 	}
+
 	.othersubject q,
 	.othersubject p {
 		font-size: 15px;
 	}
-	.webname {
-		max-width: 450px;
-		font-size: 60px;
-	}
-	.webmotto {
-		font-size: 25px;
-	}
+
 	.subjectlistsdiv {
 		background-position: center;
+	}
+	.contact div {
+		margin: 1%;
+		font-size: 0.9rem;
 	}
 }
 
@@ -619,10 +581,13 @@ ul {
 /* for 480 devices */
 
 @media only screen and (min-width: 480px) {
+
 	.navbar,
-	.svg3, .reference-videos {
+	.svg3,
+	.reference-videos {
 		display: none!important;
 	}
+
 	.col-1,
 	.col-2,
 	.col-3,
@@ -637,37 +602,40 @@ ul {
 	.col-12 {
 		width: 100%;
 	}
+
 	.subject {
 		display: none;
 	}
+
 	.othersubjects {
 		margin: 0;
 	}
+
 	.othersubject {
 		font-size: 40px;
 		width: 450px;
 		height: auto;
 	}
+
 	.othersubject q,
 	.othersubject p {
 		font-size: 20px;
 	}
+
 	.coursesubjects .col-3 {
 		width: 50%;
 	}
+
 	.coursesubject {
 		height: auto;
 		width: 200px;
 	}
-	.webname {
-		max-width: 450px;
-		font-size: 60px;
-	}
-	.webmotto {
-		font-size: 25px;
-	}
+
 	.subjectlistsdiv {
 		background-position: center;
+	}
+	.contact div {
+		margin-left: 5%;
 	}
 }
 
@@ -675,13 +643,17 @@ ul {
 /* for 720 devices */
 
 @media only screen and (min-width: 720px) {
+
 	.navbar,
 	.svg2 {
 		display: none!important;
 	}
-	.svg3, .reference-videos {
+
+	.svg3,
+	.reference-videos {
 		display: block!important;
 	}
+
 	.col-1,
 	.col-2,
 	.col-3,
@@ -696,41 +668,48 @@ ul {
 	.col-12 {
 		width: 100%;
 	}
+
 	.subject {
 		display: none;
 	}
+
 	.othersubjects {
 		margin: 0;
 	}
+
 	.othersubject {
 		font-size: 40px;
 		width: 630px;
 		height: auto;
 	}
+
 	.othersubject q,
 	.othersubject p {
 		font-size: 20px;
 	}
+
 	.coursesubjects .col-3 {
 		width: 50%;
 	}
+
 	.coursesubject {
 		height: auto;
 		width: 250px;
 	}
-	.webname {
-		max-width: 450px;
-		font-size: 60px;
-	}
-	.webmotto {
-		font-size: 25px;
-	}
+
 	.subjectlistsdiv {
 		background-position: center;
 	}
+
 	.subjectlistcse,
 	.subjectlistitesm {
 		width: 50%;
+	}
+	.contact div {
+		margin: 1%;
+		margin-left: 10%;
+		margin-right: 10%;
+		font-size: 0.9rem;
 	}
 }
 
@@ -738,10 +717,12 @@ ul {
 	.svg2 {
 		display: none!important;
 	}
+
 	.navbar,
 	.svg3 {
 		display: block!important;
 	}
+
 	.col-1,
 	.col-2,
 	.col-3,
@@ -756,10 +737,12 @@ ul {
 	.col-12 {
 		width: 100%;
 	}
+
 	.extrasubjects .col-4 {
 		width: 50%;
 		max-width: 375px;
 	}
+
 	.subjectlistcse,
 	.subjectlistitesm {
 		width: 50%;
@@ -773,10 +756,12 @@ ul {
 	.svg2 {
 		display: none!important;
 	}
+
 	.navbar,
 	.svg3 {
 		display: block!important;
 	}
+
 	.col-1,
 	.col-2,
 	.col-3,
@@ -791,23 +776,31 @@ ul {
 	.col-12 {
 		width: 100%;
 	}
+
 	.subject {
 		display: flex;
 	}
+
 	.othersubjects .col-6 {
 		width: 50%;
 		max-width: 594px;
 	}
+
 	.coursesubjects .col-3 {
 		width: auto;
 	}
+
 	.extrasubjects .col-4 {
 		width: 50%;
 		max-width: 375px;
 	}
+
 	.subjectlistcse,
 	.subjectlistitesm {
 		width: 50%;
+	}
+	.contact div {
+		font-size: 1.2rem;
 	}
 }
 
@@ -815,7 +808,8 @@ ul {
 	.coursesubjects .col-3 {
 		width: 25%;
 	}
+
+	.subjectlistsdiv {
+		background-position: top;
+	}
 }
-
-
-/**/
