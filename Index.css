@@ -677,7 +677,7 @@ ul {
 @media only screen and (min-width: 720px) {
 	.navbar,
 	.svg2 {
-		display: none;
+		display: none!important;
 	}
 	.svg3, .reference-videos {
 		display: block!important;
@@ -736,11 +736,11 @@ ul {
 
 @media only screen and (min-width: 836px) {
 	.svg2 {
-		display: none;
+		display: none!important;
 	}
 	.navbar,
 	.svg3 {
-		display: block;
+		display: block!important;
 	}
 	.col-1,
 	.col-2,
@@ -771,11 +771,11 @@ ul {
 
 @media only screen and (min-width: 1280px) {
 	.svg2 {
-		display: none;
+		display: none!important;
 	}
 	.navbar,
 	.svg3 {
-		display: block;
+		display: block!important;
 	}
 	.col-1,
 	.col-2,
