@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+input {
+    display: block;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #2e2a2a;
+}
+
+input:focus {
+    outline: none;
+    background-color: #dfdfdf;
+}
